@@ -1,0 +1,66 @@
+
+  .container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100vh; /* Adjust the height as needed */
+  }
+  
+  .content {
+    text-align: center;
+    margin-right: auto;
+  }
+
+  #fare{
+    background-image: url("C:\Users\Jasper\OneDrive\Desktop\React\my-app\src\Components\wallpaperflare.com_wallpaper.jpg");
+    height: 745px;
+    display: flex;
+    gap: 40px;
+    /* flex-direction: column; */
+  }
+  
+#f1{
+    width: 50%;
+    height: 145px;
+    background-color: rgb(206, 200, 212);
+    /* border-radius: 20px; */
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 40px;
+    margin-bottom: 50px;
+  }
+  #f2{
+    width: 50%;
+    height: 145px;
+    background-color: rgb(239, 241, 239);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 40px;
+    /* border-radius: 20px; */
+    margin-bottom: 50px;
+}
+#con{
+  margin-top: 550px;
+  margin-left: 500px;
+  width: 500px;
+  margin-bottom: 50px;
+  background-color: white;
+  border-radius: 20px;
+  /* padding: 40px; */
+  /* border: 2px solid; */
+  display: flex;
+  /* gap: 200px; */
+}
+/* #f1 p{
+  padding: 50px;
+}
+#f2 p{
+  padding: 50px;
+} */
+
+#but{
+  transform: translate(-360%,95%);
+}
+
+
+
